@@ -1,47 +1,89 @@
-.main-title{
-    text-align: center;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
-main{
+
+p {
+    font-size: 15px;
+}
+/* Bagian main*/
+main {
     display: flex;
+}
+/* style kontainer kiri */
+#berat-badan, #tinggi-badan, #usia {
+    width: 80%;
+}
+
+.main-container{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.main-tittle {
+    text-align: center;
+    margin: 10px;
 }
 
 form {
-    padding: 12px;
     background-color: aliceblue;
+    height: 300px;
+    padding: 10px;
 }
 
-aside{
-    padding: 48px;
+/* style button */
+#hitungbmi {
+    border-radius: 5px;
+    border: 1px solid rgb(253, 253, 253);
+    background-color:rgb(33, 53, 233) ;
+    color: white;
+    padding: 5px;
+}  
+#reset {
+    border-radius: 5px;
+    border: 1px solid rgb(253, 253, 253);
+    background-color:rgb(218, 63, 63) ;
+    color: white;
+    padding: 5px;
 }
 
-.button{
-    height: 32px;
+/* style form hasil */
 
-    border: none;
-    border-radius: 4px;
+.second-aside {
+    background-color: aliceblue;
+    margin-top: 18px;
+    width: 50%;
+    height: 200px;
 }
-.bg-hitung {
-    background: aqua;
-}
-.bg-reset {
-    background: white;
-    color: black;
-}
-.form-btn-container {
-    margin-top: 24px;
-    margin-bottom: 16px;
-}
-input [type=number] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: monospace;
-    font-size: 14px;
-}
-footer {
+
+.hasil-tittle {
     text-align: center;
+    margin: 20px;
 }
+
+#hasil-output {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: fuchsia; 
+    overflow: hidden;
+}
+
+#keterangan {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#program-diet {
+    margin-top: 100px;
+    height: 300px;
+}
+
+#penyakit {
+    background-color: aliceblue;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}  
